@@ -102,6 +102,6 @@ J'étais un peu paniquée au debut de ce projet, et je me pensais totalement inc
 ## Références
 
 Les ressources utilisées pour la réalisation de ce projet sont : 
-* La correction de l'API de réservation de billets de concerts sur GitHub disponible [ici] (https://github.com/paul-schuhm/node-rest-api-exam-corrige)
+* La correction de l'API de réservation de billets de concerts sur GitHub disponible [ici](https://github.com/paul-schuhm/node-rest-api-exam-corrige)
 * Le cours de développement API de Paul Schumacher
 * Le starter pack api node.js disponible [ici](https://github.com/paul-schuhm/starterpack-api-nodejs)
