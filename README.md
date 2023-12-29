@@ -61,7 +61,7 @@ Types de données :
 * Booléen (B)
 
 | Désignation | Code | Type | Obligatoire | Commentaires |
-|-----------|-----------|-----------|
+|-----------|-----------|-----------|-----------|-----------|
 | Pseudo utilisateur | pseudo | AN | oui | Fait office d'identifiant |
 | Mot de passe | password | AN | non | Uniquement pour les administrateur.ice.s |
 | Rôle | isAdmin | B | oui |  |
@@ -74,7 +74,7 @@ Types de données :
 ### Tableau récapitulatif des ressources
 
 | Ressource | URL | Méthode HTTP | Paramètres d'URL/Variations | Commentaires |
-|-----------|-----------|-----------|
+|-----------|-----------|-----------|-----------|-----------|
 | Réservation d'un terrain | /courts/{name}/reservations | POST |  |  |
 | Annulation de la réservation d'un terrain | /courts/{name}/reservations/{id-reservation} | DELETE | N'est accessible qu'à l'auteur.ice de la réservation car nécessite l'identifiant de la réservation |
 | Liste des réservations par terrains | /courts/{name}/reservations | GET | Il est possible de trier les résultats en fonction du pseudo ayant effectué la réservation avec ?pseudo= | Ressource protégée par un JSONWebToken |
